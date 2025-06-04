@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Web Application",
+    "color": "#4F46E5",
+    "icon": "Globe",
+    "taskCount": 8
+  },
+  {
+    "id": "2",
+    "name": "Backend API",
+    "color": "#059669",
+    "icon": "Server",
+    "taskCount": 3
+  },
+  {
+    "id": "3",
+    "name": "Mobile App",
+    "color": "#DC2626",
+    "icon": "Smartphone",
+    "taskCount": 2
+  },
+  {
+    "id": "4",
+    "name": "Marketing Site",
+    "color": "#7C3AED",
+    "icon": "Megaphone",
+    "taskCount": 3
+  },
+  {
+    "id": "5",
+    "name": "Data Analytics",
+    "color": "#EA580C",
+    "icon": "BarChart3",
+    "taskCount": 0
+  },
+  {
+    "id": "6",
+    "name": "User Research",
+    "color": "#0891B2",
+    "icon": "Users",
+    "taskCount": 0
+  },
+  {
+    "id": "7",
+    "name": "Design System",
+    "color": "#BE185D",
+    "icon": "Palette",
+    "taskCount": 0
+  },
+  {
+    "id": "8",
+    "name": "Documentation",
+    "color": "#65A30D",
+    "icon": "BookOpen",
+    "taskCount": 0
+  },
+  {
+    "id": "9",
+    "name": "Testing & QA",
+    "color": "#C2410C",
+    "icon": "Bug",
+    "taskCount": 0
+  },
+  {
+    "id": "10",
+    "name": "DevOps",
+    "color": "#1F2937",
+    "icon": "Settings",
+    "taskCount": 0
+  }
+]
