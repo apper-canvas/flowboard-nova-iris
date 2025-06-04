@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import ApperIcon from '../components/ApperIcon'
+import Icon from '../components/atoms/Icon'
 
 function NotFound() {
   return (
@@ -15,9 +15,9 @@ function NotFound() {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-          className="mb-8"
+className="mb-8"
         >
-          <ApperIcon name="AlertTriangle" className="h-24 w-24 text-primary mx-auto mb-4" />
+          <Icon name="AlertTriangle" className="h-24 w-24 text-primary mx-auto mb-4" />
         </motion.div>
         
         <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4">
@@ -38,13 +38,12 @@ function NotFound() {
         >
           <Link
             to="/"
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary to-secondary text-white px-8 py-3 rounded-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300"
+className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary to-secondary text-white px-8 py-3 rounded-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            <ApperIcon name="ArrowLeft" className="h-5 w-5" />
+            <Icon name="ArrowLeft" className="h-5 w-5" />
             <span>Back to Dashboard</span>
           </Link>
         </motion.div>
-        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
